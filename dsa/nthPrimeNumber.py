@@ -1,8 +1,8 @@
 def printPrime(n):
     x=2
-    num=str(n)
-    count=0
     arr=[]
+    count=0
+    num=str(n)
     while len(arr)<n:
         flag=True
         for i in range(2,x):
