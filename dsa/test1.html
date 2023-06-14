@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handling and Form Validation</title>
+</head>
+<body>
+  <form id="myForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    // Event Handling
+    const form = document.getElementById("myForm");
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
+
+    // Click Event
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+      console.log("Form submitted!");
+    });
+
+    // Mouseover Event
+    nameInput.addEventListener("mouseover", function() {
+      console.log("Mouseover event on Name input");
+    });
+
+    // Mouseout Event
+    emailInput.addEventListener("mouseout", function() {
+      console.log("Mouseout event on Email input");
+    });
+
+    // Form Validation and Logging
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const name = nameInput.value.trim();
+      const email = emailInput.value.trim();
+
+      if (name === "") {
+        console.log("Name is required");
+        return;
+      }
+
+      if (email === "") {
+        console.log("Email is required");
+        return;
+      }
+
+      console.log("Name:", name);
+      console.log("Email:", email);
+
+      // Additional validation or submission logic can be added here
+    });
+  </script>
+</body>
+</html>

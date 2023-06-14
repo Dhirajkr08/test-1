@@ -1,0 +1,34 @@
+body,html{
+    height:100%;
+    background-image: url("background.webp");
+
+}
+form{
+    box-sizing: border-box;
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+    outline: none;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 700px;
+}
+#dateTime{
+    width: 45%;
+    max-width: 700px;
+
+}
+.Mybutton{
+    box-sizing: border-box;
+    background-color: orange;
+    width: 100%;
+    max-width: 700px;
+}
+.mylabel{
+    text-align: left;
+}
+h1,h6{
+    text-align: center;
+}
