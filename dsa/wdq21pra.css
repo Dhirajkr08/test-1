@@ -1,0 +1,23 @@
+
+form{
+    box-sizing: border-box;
+    background-color: pink;
+    margin-left:20%;
+    margin-right: 20%;
+    outline: none;
+}
+button{
+    width: 100%;
+    max-width: 800px;
+    background-color: green;
+}
+h2{
+    text-align: center;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    
+}
