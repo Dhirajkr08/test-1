@@ -1,0 +1,28 @@
+html,body{
+    background-color: coral;
+    height:100%;
+}
+input{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+}
+h1,h6{
+    text-align: center;
+}
+form{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    margin-left: 20%;
+    margin-right: 20%;
+    outline:none;
+}
+button{
+    width: 100%;
+    max-width: 800px;
+}
+.dateTime{
+    width:48%;
+    max-width: 800px;
+
+}
