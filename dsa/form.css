@@ -1,0 +1,20 @@
+body,html{
+    height:100%;
+    background-image: url("background.webp");
+
+}
+div{
+    position:inherit;
+    margin:200px;
+    right:0;
+    max-width: 220px;
+    padding: 1x;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: inset;
+    
+    background-color:white;
+
+}
+
+
